@@ -112,4 +112,7 @@ class Game {
   }
 
 
+  git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Forest Turner'; GIT_AUTHOR_EMAIL='mrforestranger@gmail.com'; GIT_COMMITTER_NAME='Forest Turner'; GIT_COMMITTER_EMAIL='mrforestranger@gmail.com';" HEAD
+
+
 }
